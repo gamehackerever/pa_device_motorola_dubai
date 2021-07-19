@@ -48,6 +48,9 @@ debug.hwui.skia_atrace_enabled=false
 # IMS
 ro.qcom.ims.use_moto_vt_ext=true
 
+# LMK
+ro.lmk.filecache_min_kb=153600
+
 # Media
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 ro.media.recorder-max-base-layer-fps=60
