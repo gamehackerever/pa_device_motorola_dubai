@@ -50,6 +50,7 @@ ro.qcom.ims.use_moto_vt_ext=true
 
 # LMK
 ro.lmk.filecache_min_kb=153600
+ro.lmk.kill_timeout_ms=50
 
 # Media
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
