@@ -223,6 +223,11 @@
         <fqname>@2.0::ICameraDesktop/default</fqname>
     </hal>
     <hal format="hidl">
+        <name>vendor.dolby.hardware.dms</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.0::IDms/default</fqname>
+    </hal>
+    <hal format="hidl">
         <name>vendor.egistec.hardware.fingerprint</name>
         <transport>hwbinder</transport>
         <version>4.0</version>

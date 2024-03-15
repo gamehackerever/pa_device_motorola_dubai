@@ -11,6 +11,9 @@ TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a76
 
+# Audio
+AUDIO_FEATURE_ENABLED_DS2_DOLBY_DAP := true
+
 # AVB - Disable Verification
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
 
