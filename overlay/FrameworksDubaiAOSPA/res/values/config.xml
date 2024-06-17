@@ -5,7 +5,7 @@
 -->
 <resources>
     <!-- Fingerprint from stock ROM -->
-    <string name="config_stockFingerprint" translatable="false">motorola/dubai_g/dubai:13/T1RD33.116-33-3/a0c97:user/release-keys</string>
+    <string name="config_stockFingerprint" translatable="false">motorola/dubai_g/dubai:13/T1RD33.116-33-15-6/e089e7-b95537:user/release-keys</string>
 
     <!-- Defines the sysfs attribute path used by the device
          to enable/disable DC dimming. -->
