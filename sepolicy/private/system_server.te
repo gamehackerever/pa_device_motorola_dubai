@@ -1,1 +1,2 @@
 allow system_server mot_system_service:service_manager add;
+allow system_server binderfs_logs:dir search;
