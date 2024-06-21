@@ -2,3 +2,9 @@ runtime_resource_overlay {
     name: "WifiResTargetDubai",
     vendor: true,
 }
+
+runtime_resource_overlay {
+    name: "WifiResTargetMainline",
+    manifest: "AndroidGoogleManifest.xml",
+    vendor: true,
+}

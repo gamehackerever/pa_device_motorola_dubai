@@ -291,7 +291,8 @@ PRODUCT_PACKAGES += \
     SettingsProviderResDubai \
     SystemUIResDubai \
     TelephonyResDubai \
-    WifiResTargetDubai
+    WifiResTargetDubai \
+    WifiResTargetMainline
 
 # Partitions - Dynamic
 PRODUCT_BUILD_ODM_IMAGE := true
