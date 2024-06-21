@@ -255,6 +255,10 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
 PRODUCT_PACKAGES += \
     MotoActions
 
+# Moto NrEnabler
+PRODUCT_PACKAGES += \
+    MotoNrEnabler
+
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH)
