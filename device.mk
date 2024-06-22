@@ -251,6 +251,10 @@ DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/vintf/manifest_yupik.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     $(DEVICE_PATH)/configs/vintf/dubai_vendor_framework_compatibility_matrix.xml
 
+# Media
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/media/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
+
 # Moto Actions
 PRODUCT_PACKAGES += \
     MotoActions
